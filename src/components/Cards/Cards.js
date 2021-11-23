@@ -1,5 +1,4 @@
-import { v4 as uuidv4 } from "uuid";
-import React, { useState } from "react";
+import React from "react";
 import "./desktop.scss";
 
 function Cards(props) {
@@ -12,7 +11,7 @@ function Cards(props) {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <a href="#" className="btn btn-primary">
+        <a href="./" className="btn btn-primary">
           Go somewhere
         </a>
       </div>

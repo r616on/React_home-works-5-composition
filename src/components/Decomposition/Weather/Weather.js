@@ -5,7 +5,7 @@ function Weather(props) {
     <div className="Weather">
       <h3> Погода</h3>
       <div className="prev">
-        <img className="icon" src={props.img} />
+        <img className="icon" src={props.img} alt="img" />
         <div className="text">{props.active}</div>
       </div>
       <div className="body">{props.children}</div>
